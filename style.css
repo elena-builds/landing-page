@@ -121,9 +121,52 @@ body {
   color: #1f2937;
 }
 .quote-author {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   color: #1f2937;
   text-align: right;
   margin-top: 9px;
+}
+.modal-section {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.modal-box {
+  background-color: #3882f6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+}
+.modal-title {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 700;
+}
+.modal-description {
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 9px;
+}
+
+.modal-button {
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 6px 15px;
+  width: 130px;
+}
+
+.footer-section {
+  background-color: #1f2937;
+  padding: 40px 0;
+  color: #f9faf8;
+  text-align: center;
+  font-weight: 300;
 }
