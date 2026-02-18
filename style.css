@@ -8,8 +8,7 @@ body {
   background-color: #1f2937;
   padding: 18px 0;
 }
-
-.header-inner {
+.content-wrapper {
   max-width: 70%;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -20,39 +19,33 @@ body {
   align-items: center;
   margin-bottom: 100px;
 }
-
 .logo {
   color: #f9faf8;
   font-size: 24px;
   font-weight: 700;
 }
-
-ul {
+.header-list {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   gap: 18px;
 }
-
-ul a {
+.header-list a {
   text-decoration: none;
   color: #e5e7eb;
   font-weight: 300;
 }
-
 .header-contents {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .header-text {
   display: flex;
   flex-direction: column;
   width: 450px;
 }
-
 .header-text h1 {
   color: #f9faf8;
   font-size: 48px;
@@ -77,8 +70,60 @@ ul a {
   width: 130px;
   border-style: none;
 }
-.header-image {
-  width: 500px;
-  height: 250px;
+
+.information-section {
+  padding: 100px 0;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.information-title {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.information-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.information-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  padding: 0 18px;
+  gap: 9px;
+  text-align: center;
+  color: #1f2937;
+}
+.info-image {
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.quote-section {
   background-color: #e5e7eb;
+  padding: 100px 0;
+}
+.quote-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+}
+.quote-author {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1f2937;
+  text-align: right;
+  margin-top: 9px;
 }
